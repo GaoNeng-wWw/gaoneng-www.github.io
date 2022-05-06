@@ -1,0 +1,32 @@
+:root{
+    --bg-1: rgba(229,231,235,1);
+    --bg-2: rgba(243,244,246,1);
+    --primary: rgb(59, 130, 246);
+    --success: #10B981;
+    --error: #EF4444;
+    --warning: #FBBF24;
+    --border: rgba(0, 0, 0, 1);
+    --text-1: #141414;
+    --text-2: #6B7280;
+    --hrefUnderLine: rgba(59, 130, 246, .5);
+    --hrefHover: rgba(59,130,246);
+}
+*{
+    transition: background .5s ease, filter .3s ease;
+}
+@media (prefers-color-scheme: dark) {
+    :root{
+        --bg-1: rgba(17,24,39,1);
+        --bg-2: rgba(31,41,55,1);
+        --primary: rgb(59, 130, 246);
+        --success: #10B981;
+        --error: #EF4444;
+        --warning: #FBBF24;
+        --border: rgba(114, 114, 114, 1);
+        --text-1: #dfdfdf;
+        --text-2: #6B7280;
+        --content: #dcdcdc;
+        --hrefUnderLine: rgba(59, 130, 246, .5);
+        --hrefHover: rgba(59,130,246);
+    }
+}

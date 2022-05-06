@@ -1,0 +1,17 @@
+.author-wrapper {
+    width: 350px;
+}
+.author-block,.menu {
+    width: 90%;
+    margin: auto;
+    padding: 1em 0;
+}
+.author-block > img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.menu-item a{
+    transition: color .5s ease;
+}

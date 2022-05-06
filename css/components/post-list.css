@@ -1,0 +1,17 @@
+.post-card-content{
+    max-height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    word-break: break-all;
+    overflow: hidden;
+}
+.post-card-img > img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.tags{
+    font-size: 14px;
+}

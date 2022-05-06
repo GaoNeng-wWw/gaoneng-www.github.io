@@ -1,0 +1,41 @@
+h1,h2,h3,h4 {
+    color: var(--text-1);
+    font-weight: bold;
+}
+p:not(table), .post-content-wrapper ul .post-content-wrapper li{
+    color: var(--content);
+}
+.post-content-wrapper a{
+    transition: all .5s ease-in;
+    box-shadow: inset 0 -8px var(--hrefUnderLine);
+    color: var(--content);
+}
+.post-content-wrapper a:hover{
+    box-shadow: none;
+    color: var(--hrefHover);
+}
+.post-content-wrapper table{
+    color: var(--content);
+    border: 1px solid var(--border);
+}
+.post-content-wrapper table, .post-content-wrapper tr, .post-content-wrapper td {
+    border: 1px solid var(--border);
+}
+.post-content-wrapper figure table,.post-content-wrapper figure tr, .post-content-wrapper figure td{
+    border: 0;
+}
+.post-content-wrapper figure::-webkit-scrollbar{
+    background: transparent;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background: var(--bg-1);
+}
+.post-content-wrapper blockquote{
+    border-left: 3px var(--primary) solid;
+    color: var(--text-2);
+}
+.post-content-wrapper p{
+    color: var(--text-1);
+}
